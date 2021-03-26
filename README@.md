@@ -1,9 +1,9 @@
 ## For Linux 
 ### Step 1 :Install the Prequisites
 Some tools need to be installed on the computer before proceeding to the next steps.
-'''sh
+```sh
 sudo apt-get install git wget flex bison gperf python3 python3-pip python3-setuptools cmake ninja-build ccache libffi-dev libssl-dev dfu-util libusb-1.0-0
-'''
+```
 ### Step 2 : Get ESP-IDF
 To build applications for the ESP32, you need the software libraries provided by Espressif in ESP-IDF repository.
 ```sh
