@@ -41,11 +41,15 @@ cd ~/esp/hello_world
 idf.py set-target esp32
 idf.py menuconfig
 ```
+If the previous steps have been done correctly, the following menu appears :
+![Project Configuration](Assets/project-configuration1.png)
 ### Step 8 : Build the Project
 Build the project by running:
 ```sh
 idf.py build
 ```
+This command will compile the application and all ESP-IDF components, then it will generate the bootloader, partition table, and application binaries.
+![Build](Assets/build.png)
 ### Step 9 : Flash onto the Device
 Flash the binaries that you just built (bootloader.bin, partition-table.bin and hello-world.bin) onto your ESP32 board by running.:
 * Note : Press Down the Boot Button on ESP32 and then execute the Flash command
