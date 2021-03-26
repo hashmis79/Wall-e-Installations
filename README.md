@@ -11,13 +11,13 @@
 ### 3. In my case I already had python3.6 and github on my system. If you don’t, then select the install python, install git options 
 ![image](https://user-images.githubusercontent.com/66636289/112638419-3eb7b500-8e65-11eb-94a9-0510cb33845e.png)
 
-4. 
+### 4. 
 ![image](https://user-images.githubusercontent.com/66636289/112638775-9c4c0180-8e65-11eb-8891-9cd4e185f84c.png)
 
-5. 
+### 5. 
 ![image](https://user-images.githubusercontent.com/66636289/112639270-154b5900-8e66-11eb-8f93-29c0a2b279d6.png)
 
-6.
+### 6.
 ![image](https://user-images.githubusercontent.com/66636289/112639872-c4883000-8e66-11eb-9151-f4a7c72c0dbb.png)
 
 ### 7. Click on Install then after Installation check all boxes and click on Finish.
