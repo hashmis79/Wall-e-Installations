@@ -23,3 +23,34 @@ The installed tools are not yet added to the PATH environment variable. To make 
 ```sh
 . $HOME/esp/esp-idf/export.sh
 ```
+Note the space between the leading dot and the path!
+### Step 5 : Start a Project
+Now you are ready to prepare your application for ESP32.
+```sh
+cd %userprofile%\esp
+xcopy /e /i %IDF_PATH%\examples\get-started\hello_world hello_world
+```
+### Step 6 : Connect Your Device
+Now connect your ESP32 board to the computer and check under what serial port the board is visible.
+Serial ports have the Name
+* Starting with /dev/tty
+### Step 7 : Configure
+Now you are ready to prepare your application for ESP32.
+```sh
+cd ~/esp/hello_world
+idf.py set-target esp32
+idf.py menuconfig
+```
+### Step 8 : Build the Project
+Build the project by running:
+```sh
+idf.py build
+```
+### Step 9 : Flash onto the Device
+Flash the binaries that you just built (bootloader.bin, partition-table.bin and hello-world.bin) onto your ESP32 board by running.:
+* Note : Press Down the Boot Button on ESP32 and then execute the Flash command
+```sh
+idf.py -p PORT [-b BAUD] flash
+```
+* Example Port - /dev/ttyUSB0 
+* (Depending on the port you used for connecting the board the port can vary from /dev/ttyUSB0 and Zero can be replaced by any other consecutive number)
