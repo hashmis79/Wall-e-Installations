@@ -64,17 +64,24 @@ cd /Wall-E_v2.1/components
 git clone https://github.com/SRA-VJTI/sra-board-component.git
 ```
 # Commands
-## Step 1 : Start a Project
+This is the Basic Procedure For Compiling and Flashing a Project code on the ESP32
+## Step 1 : Set Up Environtment variables
+In the terminal where you are going to use ESP-IDF, run:
+```sh
+. $HOME/esp/esp-idf/export.sh
+```
+Through this command specify the Folder/Project in which we will to be using ESP-IDF 
+## Step 2 : Start a Project
 Now you are ready to prepare your application for ESP32.
 ```sh
 cd %userprofile%\esp
 xcopy /e /i %IDF_PATH%\examples\get-started\hello_world hello_world
 ```
-### Step 2 : Connect Your Device
+## Step 3 : Connect Your Device
 Now connect your ESP32 board to the computer and check under what serial port the board is visible.
 Serial ports have the Name
 * Starting with /dev/tty
-## Step 3 : Configure
+## Step 4 : Configure
 Now you are ready to prepare your application for ESP32.
 ```sh
 cd ~/esp/hello_world
@@ -82,15 +89,16 @@ idf.py set-target esp32
 idf.py menuconfig
 ```
 If the previous steps have been done correctly, the following menu appears :
-![Project Configuration](Assets/project-configuration1.png)
-## Step 4 : Build the Project
+* ![Project Configuration](Assets/project-configuration1.png)
+This menu helps us to change the Parameters
+## Step 5 : Build the Project
 Build the project by running:
 ```sh
 idf.py build
 ```
 This command will compile the application and all ESP-IDF components, then it will generate the bootloader, partition table, and application binaries.
-*![Build](Assets/build.png)
-## Step 5 : Flash onto the Device
+* ![Build](Assets/build.png)
+## Step 6 : Flash onto the Device
 Flash the binaries that you just built (bootloader.bin, partition-table.bin and hello-world.bin) onto your ESP32 board by running.:
 * Note : Press Down the Boot Button on ESP32 and then execute the Flash command
 ```sh
