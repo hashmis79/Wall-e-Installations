@@ -32,7 +32,7 @@
 ![image](https://user-images.githubusercontent.com/66636289/112640831-bc7cc000-8e67-11eb-828a-2e77f53dbca7.png)
 ![image](https://user-images.githubusercontent.com/66636289/112641114-11203b00-8e68-11eb-9e43-f37664525e50.png)
  
-## 9. Run 'export.bat' in ESP-IDF Command Prompt:
+## 9. Run `export.bat` in ESP-IDF Command Prompt:
 
 ![image](https://user-images.githubusercontent.com/66636289/112641393-5ba1b780-8e68-11eb-85ba-c27e137258b8.png)
 
