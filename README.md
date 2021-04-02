@@ -163,5 +163,10 @@ idf.py -p PORT [-b BAUD] flash
 * For Windows 
 * PORT - /COM1 (`idf.py -p /COM1 -b 2000000 flash`)
 * (Depending on the port you used for connecting the board the port can vary from /dev/ttyUSB0 and Zero can be replaced by any other consecutive number)
+## Step 7 : Flash onto the Device
+*For seeing the output given by esp32 we use this command after flashing
+```sh
+idf.py flash monitor
+```
 
 
