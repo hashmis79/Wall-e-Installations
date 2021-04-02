@@ -20,7 +20,7 @@ First We are going to install ESP-IDF First and then Wall-E files
   <img src="https://user-images.githubusercontent.com/66636289/112638419-3eb7b500-8e65-11eb-94a9-0510cb33845e.png">
 </p>
 
-## 4. 
+## 4. The 1st option is only available for those already have github. For rest Choose the 'Install Git' option  
 <p align="center">
   <img src="https://user-images.githubusercontent.com/66636289/112638775-9c4c0180-8e65-11eb-8891-9cd4e185f84c.png">
 </p>
@@ -116,7 +116,7 @@ In the terminal where you are going to use ESP-IDF, run:
 ```
 * For Windows
 ```sh
-. $HOME/esp/esp-idf/export.sh
+%userprofile%\esp\esp-idf\export.bat
 ```
 Through this command specify the Folder/Project in which we will to be using ESP-IDF 
 ## Step 2 : Start a Project
