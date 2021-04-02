@@ -158,8 +158,10 @@ Flash the binaries that you just built (bootloader.bin, partition-table.bin and 
 ```sh
 idf.py -p PORT [-b BAUD] flash 
 ```
-* Example Port For Linux - /dev/ttyUSB0 (idf.py -p /dev/ttyUSB0 -b 2000000 flash)
-* Example Port For Windows - /COM1 (idf.py -p /COM1 -b 2000000 flash)
+* For Linux 
+* PORT - /dev/ttyUSB0 (`idf.py -p /dev/ttyUSB0 -b 2000000 flash`)
+* For Windows 
+* PORT - /COM1 (`idf.py -p /COM1 -b 2000000 flash`)
 * (Depending on the port you used for connecting the board the port can vary from /dev/ttyUSB0 and Zero can be replaced by any other consecutive number)
 
 
