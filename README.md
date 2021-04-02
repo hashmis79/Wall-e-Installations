@@ -133,15 +133,15 @@ Serial ports have the Name
 Now you are ready to prepare your application for ESP32.
 ```sh
 cd ~/esp/hello_world #Navigating to the file
-idf.py set-target esp32 # Commands for Setting the Target
-idf.py menuconfig
+idf.py set-target esp32 #Command for Setting the Target 
+idf.py menuconfig # Command for Opening the Configuration Menu
 ```
 If the previous steps have been done correctly, the following menu appears :
 <p align="center">
   <img src="Assets/project-configuration1.png">
 </p>
 
-* This menu helps us to change the Parameters
+* This menu helps us to change the Parameters. Currenty we dont need to change anything.
 ## Step 5 : Build the Project
 Build the project by running:
 ```sh
@@ -158,7 +158,8 @@ Flash the binaries that you just built (bootloader.bin, partition-table.bin and 
 ```sh
 idf.py -p PORT [-b BAUD] flash 
 ```
-* Example Port - /dev/ttyUSB0 
+* Example Port For Linux - /dev/ttyUSB0 (idf.py -p /dev/ttyUSB0 -b 2000000 flash)
+* Example Port For Windows - /COM1 (idf.py -p /COM1 -b 2000000 flash)
 * (Depending on the port you used for connecting the board the port can vary from /dev/ttyUSB0 and Zero can be replaced by any other consecutive number)
 
 
