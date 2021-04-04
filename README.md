@@ -54,11 +54,11 @@ First We are going to install ESP-IDF First and then Wall-E files
 
 ## 10 . Run `idf.py build`
 <p align="center">
-  <img src=""https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/10.png"">
+  <img src="https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/10.png">
 </p>
 
 <p align="center">
-  <img src=""https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/10(1).png"">
+  <img src="https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/10(1).png">
 </p>
 
 ## Wall-E Files
