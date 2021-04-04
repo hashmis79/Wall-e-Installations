@@ -67,7 +67,7 @@ First We are going to install ESP-IDF First and then Wall-E files
 
 ## Wall-E Files
 ## Step 1 : Cloning the Wall-E Git Repo
-To clone the Repo just execute the following command on terminal
+To clone the Repo just execute the following command on ESP-IDF Command Prompt. We are Making the project folder in the esp folder
 ```sh
 cd %userprofile%\esp
 git clone https://github.com/SRA-VJTI/Wall-E_v2.2-beta.git
@@ -77,13 +77,14 @@ git checkout dev
 ## Step 2 : Installation of SRA-Board Components
 Insatalling SRA-Boarch Components in the Components folder
 ```sh
-cd %userprofile%\esp\Wall-E_v2.2.beta/components
+cd %userprofile%\esp\Wall-E_v2.2.beta\components
 git clone https://github.com/SRA-VJTI/sra-board-component.git
 ```
 # For Linux 
 ## Step 1 : Cloning the Wall-E Git Repo
-To clone the Repo just execute the following command on terminal
+To clone the Repo just execute the following command on terminal. We are installing the project in the home folder
 ```sh
+cd $HOME
 git clone https://github.com/SRA-VJTI/Wall-E_v2.2-beta.git
 cd Wall-E_v2.2-beta
 git checkout dev
@@ -96,6 +97,7 @@ sudo chmod +x wall_e_install.sh
 ./wall_e_install.sh
 ```
 After this, test the hello_world example in the same terminal; if it runs without any errors, log out & log back in.
+(Connect ESP32 to your device before running the below commands)
 ```sh
 cd ~/esp/esp-idf/examples/get-started/hello_world
 idf.py flash monitor
@@ -162,7 +164,8 @@ idf.py -p PORT [-b BAUD] flash
 * PORT - /dev/ttyUSB0 (`idf.py -p /dev/ttyUSB0 -b 2000000 flash`)
 * For Windows 
 * PORT - /COM1 (`idf.py -p /COM1 -b 2000000 flash`)
-* (Depending on the port you used for connecting the board the port can vary from /dev/ttyUSB0 and Zero can be replaced by any other consecutive number)
+* (Depending on the port you used for connecting the board the port can vary from /dev/ttyUSB0 and Zero can be replaced by any other consecutive number.
+* and same for windows /COM1 one can be replaced by other number depending on the port you have connected esp to.)
 ## Step 7 : Flash onto the Device
 *For seeing the output given by esp32 we use this command after flashing
 ```sh
