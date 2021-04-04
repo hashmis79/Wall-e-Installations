@@ -5,54 +5,54 @@
 * [Commands](#commands)
 # For Windows
 First We are going to install ESP-IDF First and then Wall-E files
-## 1. Download the ESP-IDF installer from ( https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup.html#esp-idf-tools-installer )
+### 1. Download the ESP-IDF installer from ( https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup.html#esp-idf-tools-installer )
 <img align="center" src="https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/1.png">
 
 
 
-## 2. After Downloading open .exe file, select `I accept` then click Next>.
+### 2. After Downloading open .exe file, select `I accept` then click Next>.
 <p align="center">
   <img src="https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/2.png">
 </p>
 
-## 3. In my case I already had python3.6 and github on my system. If you don’t, then select the install python, install git options 
+### 3. In my case I already had python3.6 and github on my system. If you don’t, then select the install python, install git options 
 <p align="center">
   <img src="https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/3.png">
 </p>
 
-## 4. The 1st option is only available for those already have github. For rest Choose the 'Install Git' option  
+### 4. The 1st option is only available for those already have github. For rest Choose the 'Install Git' option  
 <p align="center">
   <img src="https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/4.png">
 </p>
 
-## 5. 
+### 5. 
 <p align="center">
   <img src="https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/5.png">
 </p>
 
-## 6.
+### 6.
 <p align="center">
   <img src="https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/6.png">
 </p>
 
-## 7. Click on Install then after Installation check all boxes and click on Finish.
+### 7. Click on Install then after Installation check all boxes and click on Finish.
 <p align="center">
   <img src="https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/7.png">
 </p>
 
 
-## 8. ESP-IDF Command Prompt & Poweshell window will pop-up :
+### 8. ESP-IDF Command Prompt & Poweshell window will pop-up :
 <p align="center">
   <img src="https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/8.png">
 </p>
 
  
-## 9. Run 'export.bat' in ESP-IDF Command Prompt:
+### 9. Run 'export.bat' in ESP-IDF Command Prompt:
 <p align="center">
   <img src="https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/9.png">
 </p>
 
-## 10 . Run `idf.py build`
+### 10 . Run `idf.py build`
 <p align="center">
   <img src="https://github.com/hashmis79/Wall-e-Installations/blob/main/Assets/10.png">
 </p>
