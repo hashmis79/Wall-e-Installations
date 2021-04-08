@@ -45,7 +45,7 @@ idf.py menuconfig #Command for Opening the Configuration
 ```
 If the previous steps have been executed correctly, you screen will show this:
 <p align="center">
-  <img src="./documentation/Assets/project-configuration1.png">
+  <img src="./Assets/project-configuration1.png">
 </p>
 
 ### Step 5 : Build the Project
@@ -56,7 +56,7 @@ idf.py build #Command for building the code
 ```
 This command will compile the application and all ESP-IDF components, then it will generate the bootloader, partition table, and application binaries.
 <p align="center">
-  <img src="./documentation/Assets/build.png">
+  <img src="./Assets/build.png">
 </p>
 
 ### Step 6 : Flash onto the Device
