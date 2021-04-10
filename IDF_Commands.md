@@ -25,9 +25,9 @@ xcopy /e /i %IDF_PATH%\examples\get-started\hello_world hello_world
 ```
 ### Step 3 : Connect Your Device
 Connect your ESP32 board to the computer and check under what serial port the board is visible.
-* Linux : `/dev/tty`
-* MacOS : `/dev/cu`
-* Windows : `COM1`
+* Linux : `/dev/ttyUSB0` or `/dev/ttyUSB(1,2.,..)`
+* MacOS : `/dev/cu` or `/dev/cu(1,2,...)` 
+* Windows : `COM0` or `COM(1,2,...)`
 
 ### Step 4 : Configure
 
@@ -70,6 +70,7 @@ idf.py -p PORT [-b BAUD] flash
    * PORT - /dev/cu.usbserial-0001(`idf.py -p /dev/cu.usbserial-0001 -b 2000000 flash`) 
 * For Windows 
    * PORT - /COM1 (`idf.py -p /COM1 -b 2000000 flash`)
+* While writing the name of the PORT eg COM1, just Press TAB after wrting COM as the port through which esp is connected COM(0,1,2,...) so to autofill that we use TAB
 * Depending on the port you used for connecting the board the port can vary from /dev/ttyUSB0 and Zero can be replaced by any other consecutive number
 and for windows /COM1 one can be replaced by other number depending on the port to which you have connected esp.
 * Note : In case you are unable to flash Press Down the Boot Button on ESP32 and then execute the Flash command
