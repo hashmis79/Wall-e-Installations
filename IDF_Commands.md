@@ -25,7 +25,10 @@ xcopy /e /i %IDF_PATH%\examples\get-started\hello_world hello_world
 ```
 ### Step 3 : Connect Your Device
 Connect your ESP32 board to the computer and check under what serial port the board is visible.
-* Linux : `/dev/ttyUSB0` or `/dev/ttyUSB(1,2.,..)`- (Command for checking port - dmesg | grep tty)
+* Linux : `/dev/ttyUSB0` or `/dev/ttyUSB(1,2.,..)`- (Command for checking port - dmesg | grep tty)<br />
+  <p align="center">
+  <img src="./Assets/port_check_linux.png">
+  </p>
 * MacOS : `/dev/cu` or `/dev/cu(1,2,...)` 
 * Windows : `COM0` or `COM(1,2,...)`
 
