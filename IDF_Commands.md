@@ -8,6 +8,7 @@ In the terminal where you are going to use ESP-IDF, run:
    - If `get_idf` command shows an error, use `. $HOME/esp/esp-idf/export.sh` command.
 - For Windows
    - Run `%userprofile%\esp\esp-idf\export.bat` command.
+   - (if esp-idf installed in desktop - `%userprofile%\Desktop\esp-idf\export.bat`)
 
 Through this command specify the Folder/Project in which we will to be using ESP-IDF 
 
@@ -23,6 +24,7 @@ cp -r $IDF_PATH/examples/get-started/hello_world .
 cd %userprofile%\esp
 xcopy /e /i %IDF_PATH%\examples\get-started\hello_world hello_world
 ```
+(if esp-idf installed in desktop - `cd %userprofile%\Desktop`)
 ### Step 3 : Connect Your Device
 Connect your ESP32 board to the computer and check under what serial port the board is visible.
 * Linux : `/dev/ttyUSB0` or `/dev/ttyUSB(1,2.,..)`- (Command for checking port - dmesg | grep tty)<br />
@@ -46,7 +48,8 @@ cd %userprofile%\esp\hello_world #Navigating to the file
 idf.py set-target esp32 #Command for Setting the Target
 idf.py menuconfig #Command for Opening the Configuration
 ```
-If the previous steps have been executed correctly, you screen will show this:
+if(if esp-idf installed in desktop - `cd %userprofile%\Desktop\hello_world`)<br />
+* If the previous steps have been executed correctly, you screen will show this:<br />
 <p align="center">
   <img src="./Assets/project-configuration1.png">
 </p>
@@ -81,7 +84,7 @@ and for windows /COM1 one can be replaced by other number depending on the port 
 ### Step 7 : Flash onto the Device
 * For seeing the output given by esp32 we use this command after flashing
 ```sh
-idf.py flash monitor
+idf.py monitor
 ```
 
 
