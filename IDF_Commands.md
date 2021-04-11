@@ -29,7 +29,7 @@ Connect your ESP32 board to the computer and check under what serial port the bo
   <p align="center">
   <img src="./Assets/port_check_linux.png">
   </p>
-* MacOS : `/dev/cu` or `/dev/cu(1,2,...)` 
+* MacOS : `/dev/cu` or `/dev/cu(1,2,...)` -  (Command for checking port - ls /dev/cu.*)
 * Windows : `COM0` or `COM(1,2,...)`
 
 ### Step 4 : Configure
